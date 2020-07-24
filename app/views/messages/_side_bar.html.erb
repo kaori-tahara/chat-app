@@ -1,10 +1,15 @@
 <div class = "side-bar-head">
- <div class ="name"><a href = "#">Kaori</a></div>
+ <div class ="name">
+   <%= link_to edit_user_path(current_user) do %>
+    <%= current_user.name %>
+    <% end %>
+   <%# <a href = "#">Kaori</a> %>
+  </div>
   <div class ="chatcreate"><a href ="#">チャットを作成する</a></div>
 </div>
 
  <div class = "chatroom">
-  <div class ="chatroom1"><a href ="#">techroom1</a></div>
+  <div class ="chatroom1"><a href ="">techroom1</a></div>
     <div class ="chatroom2"><a href ="#">techroom2</a></div>
 </div> 
    
