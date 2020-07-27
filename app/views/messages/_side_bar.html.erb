@@ -13,7 +13,9 @@
 <div class ="chatrooms">
  <% current_user.rooms.each do |room| %>
   <div class = "chatroom">
-   <div class ="chatroom1"><a href ="#"><%= room.name%></a></div>
+   <div class ="chatroom1">
+    <%= link_to room.name, room_messages_path(room)%>
+   </div>
   </div>
   <% end %>
 </div> 

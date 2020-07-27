@@ -149,7 +149,7 @@
 
 
 
-.chat-under{
+.form{
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
@@ -195,13 +195,3 @@
 .hidden {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
