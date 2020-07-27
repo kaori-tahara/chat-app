@@ -13,7 +13,9 @@ module ChatApp
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
       
-    end
+    
+
+  
 
     config.generators do |g|
       g.stylesheets false
